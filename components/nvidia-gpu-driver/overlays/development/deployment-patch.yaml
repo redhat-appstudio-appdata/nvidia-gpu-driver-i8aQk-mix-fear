@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ebelarte-tenant/nvidia-gpu-driver/nvidia-gpu-driver@sha256:28df883b18edbe1292e94100c08d55ed41709fec8cfcdb94f6d06d85f2533db3
+      - image: quay.io/redhat-user-workloads/ebelarte-tenant/nvidia-gpu-driver/nvidia-gpu-driver@sha256:f39878c2883ccbd7382d20dacb7d6d442d0ceef3f0fec92731068d8bcf6fd141
         name: container-image
         resources: {}
 status: {}
