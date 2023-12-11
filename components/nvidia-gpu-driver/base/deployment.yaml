@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: nvidia-gpu-driver
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ebelarte-tenant/nvidia-gpu-driver/nvidia-gpu-driver@sha256:472140f95c398bfe795166937a2750cf7634fcc6474cde3a58c265de4064b0fd
+      - image: quay.io/redhat-user-workloads/ebelarte-tenant/nvidia-gpu-driver/nvidia-gpu-driver@sha256:c00348856f49aa108ee0d9586e0fac961b46db29c377bb000750d8fe1e7ccae8
         imagePullPolicy: Always
         name: container-image
         ports:
